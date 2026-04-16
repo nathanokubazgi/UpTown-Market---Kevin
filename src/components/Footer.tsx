@@ -1,5 +1,5 @@
-import { Link } from "@tantml/react-router";
-import { MapPin, Phone, Clock, Facebook, Instagram, Twitter } from "lucide-react";
+import { Link } from "@tanstack/react-router";
+import { MapPin, Phone, Clock } from "lucide-react";
 
 export function Footer() {
   return (
