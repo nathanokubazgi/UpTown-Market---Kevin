@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { MapPin, Phone, Clock } from "lucide-react";
+import logoImage from "@/assets/logo-uptown.png";
 
 export function Footer() {
   return (
