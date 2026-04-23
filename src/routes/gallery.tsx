@@ -3,20 +3,13 @@ import { useState } from "react";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-market.jpg";
-import produceImage from "@/assets/gallery-produce.jpg";
-import meatImage from "@/assets/gallery-meat.jpg";
-import bakeryImage from "@/assets/gallery-bakery.jpg";
-import dairyImage from "@/assets/gallery-dairy.jpg";
-import specialtyImage from "@/assets/gallery-specialty.jpg";
-import tacosImage from "@/assets/food-tacos.jpg";
-import burritoImage from "@/assets/food-burrito.jpg";
-import quesadillaImage from "@/assets/food-quesadilla.jpg";
-import drinksImage from "@/assets/food-drinks.jpg";
+import placeholderImage from "@/assets/placeholder-blank.jpg";
 import deliCounterImage from "@/assets/deli-counter.jpg";
 import meatCounter1 from "@/assets/meat-counter-1.jpg";
 import meatCounter2 from "@/assets/meat-counter-2.jpg";
 import meatCounter3 from "@/assets/meat-counter-3.jpg";
+import meatCounter4 from "@/assets/meat-counter-4-real.jpg";
+import meatCounter5 from "@/assets/meat-counter-5-real.jpg";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -35,24 +28,14 @@ const galleryImages = [
   { src: meatCounter1, alt: "Meat counter with fresh beef cuts, ground meat, and Fud cold cuts on display" },
   { src: meatCounter2, alt: "Butcher case with marinated meats, chorizo, fajita, and pork chops" },
   { src: meatCounter3, alt: "Pork and chicken selection in the meat case with cookware on the shelf above" },
-  { src: heroImage, alt: "Uptown Fresh Market interior with colorful produce displays" },
-  { src: produceImage, alt: "Fresh produce section with vibrant fruits and vegetables" },
-  { src: meatImage, alt: "Premium meat counter with quality cuts" },
-  { src: bakeryImage, alt: "Fresh baked bread and pastries on wooden shelves" },
-  { src: dairyImage, alt: "Dairy section with milk, cheese, and more" },
-  { src: specialtyImage, alt: "Specialty items, spices, and salsas" },
-  { src: tacosImage, alt: "Freshly made street tacos with toppings" },
-  { src: burritoImage, alt: "Loaded breakfast burrito cut in half" },
-  { src: quesadillaImage, alt: "Golden cheese quesadilla with sour cream" },
-  { src: drinksImage, alt: "Colorful agua fresca drinks in glass jars" },
-  { src: heroImage, alt: "Market overview showing breadth of selection" },
-  { src: produceImage, alt: "Close-up of tropical fruits display" },
-  { src: tacosImage, alt: "Al pastor tacos with pineapple and cilantro" },
-  { src: meatImage, alt: "Butcher preparing fresh cuts" },
-  { src: bakeryImage, alt: "Sweet bread conchas and bolillos" },
-  { src: drinksImage, alt: "Horchata and Jamaica agua fresca" },
-  { src: quesadillaImage, alt: "Steak quesadilla with avocado" },
-  { src: specialtyImage, alt: "Dried chiles and mole ingredients" },
+  { src: meatCounter4, alt: "Meat and seafood counter with tortillas, shrimp, fish fillets, pork cuts, and handwritten price signs" },
+  { src: meatCounter5, alt: "Close-up of the meat and seafood counter with ceviche mix, fish fillets, pork belly, and tortillas" },
+  { src: placeholderImage, alt: "Blank photo placeholder for future produce image" },
+  { src: placeholderImage, alt: "Blank photo placeholder for future bakery image" },
+  { src: placeholderImage, alt: "Blank photo placeholder for future dairy image" },
+  { src: placeholderImage, alt: "Blank photo placeholder for future specialty grocery image" },
+  { src: placeholderImage, alt: "Blank photo placeholder for future prepared food image" },
+  { src: placeholderImage, alt: "Blank photo placeholder for future market interior image" },
 ];
 
 function GalleryPage() {

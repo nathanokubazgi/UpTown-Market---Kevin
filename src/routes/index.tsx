@@ -5,10 +5,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { SectionHeading } from "@/components/SectionHeading";
 import { SnapEbtBanner } from "@/components/SnapEbtBanner";
-import heroImage from "@/assets/hero-market.jpg";
-import tacosImage from "@/assets/food-tacos.jpg";
-import burritoImage from "@/assets/food-burrito.jpg";
-import produceImage from "@/assets/gallery-produce.jpg";
+import placeholderImage from "@/assets/placeholder-blank.jpg";
+import orderOnlineImage from "@/assets/order-online-real-v2.jpg";
 import deliCounterImage from "@/assets/deli-counter.jpg";
 
 export const Route = createFileRoute("/")({
@@ -31,9 +29,9 @@ const weeklySpecials = [
 ];
 
 const quickLinks = [
-  { to: "/menu", label: "Food Menu", description: "Tacos, burritos, breakfast & more", icon: "🌮", image: tacosImage },
-  { to: "/grocery", label: "Grocery", description: "Fresh produce, meats & specialty items", icon: "🥑", image: produceImage },
-  { to: "/order", label: "Order Online", description: "UberEats, DoorDash & more", icon: "📱", image: burritoImage },
+  { to: "/menu", label: "Food Menu", description: "Tacos, burritos, breakfast & more", icon: "🌮", image: placeholderImage },
+  { to: "/grocery", label: "Grocery", description: "Fresh produce, meats & specialty items", icon: "🥑", image: placeholderImage },
+  { to: "/order", label: "Order Online", description: "UberEats, DoorDash & more", icon: "📱", image: orderOnlineImage },
 ] as const;
 
 function HomePage() {
@@ -42,7 +40,7 @@ function HomePage() {
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={heroImage} alt="Inside Uptown Fresh Market with colorful produce and fresh bread" className="h-full w-full object-cover" width={1920} height={1080} />
+          <img src={placeholderImage} alt="Blank photo placeholder for future Uptown Fresh Market hero image" className="h-full w-full object-cover" width={1920} height={1080} />
           <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/60 to-foreground/30" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:py-40">

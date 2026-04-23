@@ -4,11 +4,8 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { SnapEbtBanner } from "@/components/SnapEbtBanner";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import produceImage from "@/assets/gallery-produce.jpg";
+import placeholderImage from "@/assets/placeholder-blank.jpg";
 import meatImage from "@/assets/meat-counter-1.jpg";
-import bakeryImage from "@/assets/gallery-bakery.jpg";
-import dairyImage from "@/assets/gallery-dairy.jpg";
-import specialtyImage from "@/assets/gallery-specialty.jpg";
 
 export const Route = createFileRoute("/grocery")({
   head: () => ({
@@ -16,7 +13,7 @@ export const Route = createFileRoute("/grocery")({
       { title: "Grocery — Uptown Fresh Market" },
       { name: "description", content: "Fresh produce, quality meats, bakery, dairy, and specialty items at Uptown Fresh Market Nashville. SNAP/EBT accepted." },
       { property: "og:title", content: "Grocery — Uptown Fresh Market" },
-      { property: "og:description", content: "Fresh produce, quality meats, bakery, dairy & specialty items. SNAP/EBT accepted." },
+      { property: "og:description", content: "Fresh produce, quality meats, bakery & specialty items. SNAP/EBT accepted." },
     ],
   }),
   component: GroceryPage,
@@ -34,7 +31,7 @@ const categories: GroceryCategory[] = [
   {
     name: "Fresh Produce",
     description: "Locally sourced and imported fruits and vegetables, delivered fresh daily.",
-    image: produceImage,
+    image: placeholderImage,
     icon: "🥬",
     products: ["Avocados", "Tomatoes", "Jalapeños", "Cilantro", "Limes", "Mangoes", "Nopales", "Tomatillos", "Plantains", "Yuca"],
   },
@@ -48,21 +45,21 @@ const categories: GroceryCategory[] = [
   {
     name: "Bakery",
     description: "Fresh-baked breads, pastries, and traditional Mexican sweet bread daily.",
-    image: bakeryImage,
+    image: placeholderImage,
     icon: "🍞",
     products: ["Conchas", "Bolillos", "Pan Dulce", "Tres Leches Cake", "Tortillas (Corn & Flour)", "Empanadas", "Churros"],
   },
   {
     name: "Dairy & Deli",
     description: "Fresh cheeses, cream, eggs, and deli items for your home cooking.",
-    image: dairyImage,
+    image: placeholderImage,
     icon: "🧀",
     products: ["Queso Fresco", "Oaxaca Cheese", "Crema Mexicana", "Cotija Cheese", "Fresh Eggs", "Whole Milk", "Butter"],
   },
   {
     name: "Specialty & Pantry",
     description: "Authentic spices, salsas, dried chiles, canned goods, and imported specialties.",
-    image: specialtyImage,
+    image: placeholderImage,
     icon: "🌶️",
     products: ["Dried Chiles", "Mole Paste", "Hominy", "Mexican Rice", "Refried Beans", "Hot Sauces", "Tamarind Candy", "Maseca"],
   },
