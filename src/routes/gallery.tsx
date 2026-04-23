@@ -14,6 +14,9 @@ import burritoImage from "@/assets/food-burrito.jpg";
 import quesadillaImage from "@/assets/food-quesadilla.jpg";
 import drinksImage from "@/assets/food-drinks.jpg";
 import deliCounterImage from "@/assets/deli-counter.jpg";
+import meatCounter1 from "@/assets/meat-counter-1.jpg";
+import meatCounter2 from "@/assets/meat-counter-2.jpg";
+import meatCounter3 from "@/assets/meat-counter-3.jpg";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -29,6 +32,9 @@ export const Route = createFileRoute("/gallery")({
 
 const galleryImages = [
   { src: deliCounterImage, alt: "Uptown Fresh Market deli counter with prepared foods, drinks, and Tacos & Mas menu boards" },
+  { src: meatCounter1, alt: "Meat counter with fresh beef cuts, ground meat, and Fud cold cuts on display" },
+  { src: meatCounter2, alt: "Butcher case with marinated meats, chorizo, fajita, and pork chops" },
+  { src: meatCounter3, alt: "Pork and chicken selection in the meat case with cookware on the shelf above" },
   { src: heroImage, alt: "Uptown Fresh Market interior with colorful produce displays" },
   { src: produceImage, alt: "Fresh produce section with vibrant fruits and vegetables" },
   { src: meatImage, alt: "Premium meat counter with quality cuts" },

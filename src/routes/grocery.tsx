@@ -5,7 +5,7 @@ import { SnapEbtBanner } from "@/components/SnapEbtBanner";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import produceImage from "@/assets/gallery-produce.jpg";
-import meatImage from "@/assets/gallery-meat.jpg";
+import meatImage from "@/assets/meat-counter-1.jpg";
 import bakeryImage from "@/assets/gallery-bakery.jpg";
 import dairyImage from "@/assets/gallery-dairy.jpg";
 import specialtyImage from "@/assets/gallery-specialty.jpg";
