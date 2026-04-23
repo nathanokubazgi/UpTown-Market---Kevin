@@ -4,11 +4,8 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { SnapEbtBanner } from "@/components/SnapEbtBanner";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import produceImage from "@/assets/gallery-produce.jpg";
+import placeholderImage from "@/assets/placeholder-blank.jpg";
 import meatImage from "@/assets/meat-counter-1.jpg";
-import bakeryImage from "@/assets/gallery-bakery.jpg";
-import dairyImage from "@/assets/gallery-dairy.jpg";
-import specialtyImage from "@/assets/gallery-specialty.jpg";
 
 export const Route = createFileRoute("/grocery")({
   head: () => ({
@@ -34,35 +31,9 @@ const categories: GroceryCategory[] = [
   {
     name: "Fresh Produce",
     description: "Locally sourced and imported fruits and vegetables, delivered fresh daily.",
-    image: produceImage,
-    icon: "🥬",
-    products: ["Avocados", "Tomatoes", "Jalapeños", "Cilantro", "Limes", "Mangoes", "Nopales", "Tomatillos", "Plantains", "Yuca"],
-  },
-  {
-    name: "Meat & Seafood",
-    description: "Premium cuts of beef, chicken, pork, and fresh seafood from trusted suppliers.",
-    image: meatImage,
-    icon: "🥩",
-    products: ["Carne Asada", "Chicken Thighs", "Pork Shoulder", "Chorizo", "Tilapia", "Shrimp", "Beef Tripe", "Goat Meat"],
-  },
-  {
-    name: "Bakery",
-    description: "Fresh-baked breads, pastries, and traditional Mexican sweet bread daily.",
-    image: bakeryImage,
-    icon: "🍞",
-    products: ["Conchas", "Bolillos", "Pan Dulce", "Tres Leches Cake", "Tortillas (Corn & Flour)", "Empanadas", "Churros"],
-  },
-  {
-    name: "Dairy & Deli",
-    description: "Fresh cheeses, cream, eggs, and deli items for your home cooking.",
-    image: dairyImage,
-    icon: "🧀",
-    products: ["Queso Fresco", "Oaxaca Cheese", "Crema Mexicana", "Cotija Cheese", "Fresh Eggs", "Whole Milk", "Butter"],
-  },
-  {
-    name: "Specialty & Pantry",
-    description: "Authentic spices, salsas, dried chiles, canned goods, and imported specialties.",
-    image: specialtyImage,
+    image: placeholderImage,
+...
+    image: placeholderImage,
     icon: "🌶️",
     products: ["Dried Chiles", "Mole Paste", "Hominy", "Mexican Rice", "Refried Beans", "Hot Sauces", "Tamarind Candy", "Maseca"],
   },
