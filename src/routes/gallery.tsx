@@ -13,6 +13,7 @@ import tacosImage from "@/assets/food-tacos.jpg";
 import burritoImage from "@/assets/food-burrito.jpg";
 import quesadillaImage from "@/assets/food-quesadilla.jpg";
 import drinksImage from "@/assets/food-drinks.jpg";
+import deliCounterImage from "@/assets/deli-counter.jpg";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -27,6 +28,7 @@ export const Route = createFileRoute("/gallery")({
 });
 
 const galleryImages = [
+  { src: deliCounterImage, alt: "Uptown Fresh Market deli counter with prepared foods, drinks, and Tacos & Mas menu boards" },
   { src: heroImage, alt: "Uptown Fresh Market interior with colorful produce displays" },
   { src: produceImage, alt: "Fresh produce section with vibrant fruits and vegetables" },
   { src: meatImage, alt: "Premium meat counter with quality cuts" },

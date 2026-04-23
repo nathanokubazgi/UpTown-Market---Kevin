@@ -9,6 +9,7 @@ import heroImage from "@/assets/hero-market.jpg";
 import tacosImage from "@/assets/food-tacos.jpg";
 import burritoImage from "@/assets/food-burrito.jpg";
 import produceImage from "@/assets/gallery-produce.jpg";
+import deliCounterImage from "@/assets/deli-counter.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -109,6 +110,37 @@ function HomePage() {
               </Card>
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* Deli Counter Feature */}
+      <section className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
+        <div className="grid gap-8 overflow-hidden rounded-2xl border border-border bg-card lg:grid-cols-2">
+          <div className="aspect-[4/3] lg:aspect-auto">
+            <img
+              src={deliCounterImage}
+              alt="Uptown Fresh Market deli counter with hot prepared foods, fresh juices, drinks, and Tacos & Mas menu"
+              className="h-full w-full object-cover"
+              loading="lazy"
+              width={1200}
+              height={900}
+            />
+          </div>
+          <div className="flex flex-col justify-center p-8 lg:p-12">
+            <Badge variant="secondary" className="mb-3 w-fit">Visit the Deli</Badge>
+            <h2 className="text-3xl font-bold text-foreground sm:text-4xl">Hot Food, Fresh Juices & More</h2>
+            <p className="mt-4 text-muted-foreground">
+              Step up to our deli counter for tacos, burritos, burgers, breakfast plates, and authentic Mexican platillos — made fresh daily. Pair your meal with a fresh-pressed jugo or pick from our wall of imported sodas.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Link to="/menu">
+                <Button className="gap-2">View Full Menu <ArrowRight className="h-4 w-4" /></Button>
+              </Link>
+              <Link to="/order">
+                <Button variant="outline">Order Online</Button>
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
 
