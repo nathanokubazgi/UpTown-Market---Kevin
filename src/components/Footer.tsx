@@ -8,8 +8,8 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <img src={logoImage} alt="Uptown Fresh Market" className="h-12 w-auto" loading="lazy" width={192} height={76} />
-            <p className="mt-2 text-sm text-muted-foreground">
+            <img src={logoImage} alt="Uptown Fresh Market" className="h-16 w-auto sm:h-20" loading="lazy" width={256} height={102} />
+            <p className="mt-3 text-sm text-muted-foreground">
               Nashville's favorite neighborhood grocery and prepared foods market. Fresh, affordable, and community-driven.
             </p>
             <div className="mt-4 flex gap-3">
