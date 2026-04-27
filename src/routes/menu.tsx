@@ -4,7 +4,16 @@ import { SnapEbtBanner } from "@/components/SnapEbtBanner";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import placeholderImage from "@/assets/placeholder-blank.jpg";
+import empanadasImage from "@/assets/dd-food-1.jpg";
+import smoothieImage from "@/assets/dd-food-2.jpg";
+import friesImage from "@/assets/dd-food-3.jpg";
+import tacosImage from "@/assets/dd-food-4.jpg";
+import tortaImage from "@/assets/dd-food-5.jpg";
+import sandwichImage from "@/assets/dd-food-6.jpg";
+import breakfastImage from "@/assets/dd-food-7.jpg";
+import tacoPlateImage from "@/assets/dd-food-8.jpg";
+import burritoImage from "@/assets/dd-food-9.jpg";
+import cheesecakeImage from "@/assets/dd-food-10.jpg";
 
 export const Route = createFileRoute("/menu")({
   head: () => ({
@@ -27,35 +36,95 @@ interface MenuItem {
 }
 
 const menuCategories: Record<string, MenuItem[]> = {
+  Featured: [
+    { name: "Burrito (Build your Own)", description: "Choice of meat, rice & beans, and mozzarella cheese.", price: "$11.99", image: burritoImage, popular: true },
+    { name: "Breakfast Taco", description: "Breakfast-style taco made fresh to order.", price: "$10.52", image: tacosImage },
+    { name: "Morning Burrito", description: "A hearty morning burrito from Uptown Fresh Market.", price: "$11.69", image: burritoImage },
+    { name: "Quesadilla (Build your Own)", description: "Choice of meat and mozzarella cheese.", price: "$11.99", popular: true },
+    { name: "Torta (Build your Own)", description: "Choice of meat, lettuce, tomatoes, avocado, pickled jalapeño, mayo, and mozzarella cheese.", price: "$11.99", image: tortaImage },
+    { name: "2pc Colombian Empanadas", description: "Two Colombian empanadas with your choice of beef or chicken filling.", price: "$6.99", image: empanadasImage },
+  ],
   Tacos: [
-    { name: "Carne Asada Taco", description: "Grilled steak with onions, cilantro, and salsa verde", price: "$3.49", image: placeholderImage, popular: true },
-    { name: "Al Pastor Taco", description: "Marinated pork with pineapple, onion, and cilantro", price: "$3.49", popular: true },
-    { name: "Chicken Taco", description: "Seasoned chicken with lettuce, cheese, and pico de gallo", price: "$3.29" },
-    { name: "Chorizo Taco", description: "Spiced chorizo with onions and fresh cilantro", price: "$3.29" },
-    { name: "Carnitas Taco", description: "Slow-cooked pulled pork with pickled onions", price: "$3.49" },
-    { name: "Fish Taco", description: "Crispy battered fish with cabbage slaw and chipotle crema", price: "$3.99" },
+    { name: "Steak Fajita Taco", description: "Marinated skirt steak with sautéed onions and peppers, topped with pico de gallo and jack cheese in a flour tortilla.", price: "$4.99", image: tacosImage, popular: true },
+    { name: "Taco Birria", description: "Corn tortilla with birria, cilantro, onions, and consomé.", price: "$3.99", image: tacoPlateImage, popular: true },
+    { name: "Hot Chicken Taco", description: "Crispy fried chicken with slaw, pico de gallo, and spicy mayo in a soft tortilla.", price: "$3.99" },
+    { name: "Lettuce Tacos", description: "Fresh lettuce tacos prepared to order.", price: "$9.99" },
+    { name: "Taco (Build your Own)", description: "Choice of chicken, steak, pastor, chorizo, barbacoa, carnitas, fish, or shrimp.", price: "$2.99", image: tacosImage },
+    { name: "Mango Shrimp Taco", description: "Grilled shrimp, fresh mango salsa, shredded cabbage, cilantro, and lime on a corn tortilla.", price: "$4.99" },
   ],
   Burritos: [
-    { name: "Super Burrito", description: "Choice of meat, rice, beans, cheese, sour cream, guacamole", price: "$10.99", image: placeholderImage, popular: true },
-    { name: "Breakfast Burrito", description: "Eggs, cheese, potatoes, and choice of bacon or chorizo", price: "$8.99", popular: true },
-    { name: "Bean & Cheese Burrito", description: "Refried beans, melted cheese, and salsa roja", price: "$6.99" },
-    { name: "California Burrito", description: "Carne asada, fries, cheese, sour cream, guacamole", price: "$11.99" },
+    { name: "Burrito (Build your Own)", description: "Choice of meat, rice & beans, and mozzarella cheese.", price: "$11.99", image: burritoImage, popular: true },
   ],
   Quesadillas: [
-    { name: "Cheese Quesadilla", description: "Flour tortilla with melted Oaxaca cheese", price: "$5.99", image: placeholderImage },
-    { name: "Chicken Quesadilla", description: "Grilled chicken with cheese, peppers, and onions", price: "$8.99", popular: true },
-    { name: "Steak Quesadilla", description: "Carne asada with cheese and grilled peppers", price: "$9.99" },
+    { name: "Quesadilla (Build your Own)", description: "Choice of meat and mozzarella cheese.", price: "$11.99", popular: true },
+  ],
+  Tortas: [
+    { name: "Torta Cubana", description: "Fried chicken steak, chorizo, pork ham, smoked pork, bacon, hot dog sausage, two fried eggs, beans, queso fresco, American cheese, and mozzarella.", price: "$18.71", image: tortaImage, popular: true },
+    { name: "Torta (Build your Own)", description: "Choice of meat, lettuce, tomatoes, avocado, pickled jalapeño, mayo, and mozzarella cheese.", price: "$11.99", image: tortaImage },
+    { name: "Torta Hawaiiana", description: "Turkey ham, pork ham, fried eggs, beans, lettuce, tomato, jalapeño, avocado, pineapple, queso fresco, and mozzarella cheese.", price: "$18.71" },
+  ],
+  Sandwiches: [
+    { name: "Chicken Cheesesteak Combo", description: "Chicken, grilled green pepper, pepper jack cheese, and onions. Combo includes fries and a can drink.", price: "$12.99", image: sandwichImage, popular: true },
+    { name: "Philly Cheesesteak Sandwich Combo", description: "Steak with grilled green pepper, onions, and pepper jack cheese. Comes with fries and a can drink.", price: "$12.99" },
+    { name: "Uptown Chopped Cheese Combo", description: "Ground beef, peppers, red onions, American cheese, lettuce, tomato, and chipotle mayo on hero bread.", price: "$12.99" },
+    { name: "Chicken Cheesesteak", description: "Chicken, green pepper, onions, and pepper jack cheese in a sandwich.", price: "$9.99" },
+    { name: "Grilled Chicken Sandwich", description: "Grilled chicken breast, American cheese, lettuce, tomatoes, mayo, and pickled red onion.", price: "$11.99" },
+    { name: "Philly Cheesesteak Sandwich", description: "Steak with grilled green pepper, pepper jack cheese, and onions.", price: "$9.99" },
+    { name: "Turkey Avocado Egg Sandwich", description: "Smoked turkey, avocado, and scrambled egg on toasted multi-grain bread with lettuce, tomato, and mayonnaise.", price: "$9.99" },
+    { name: "Uptown Chicken Sandwich", description: "Breaded chicken breast, bacon, jalapeño, mozzarella cheese, and mayo.", price: "$11.99" },
+  ],
+  Burgers: [
+    { name: "Smash Burger", description: "Smashed beef patties with American cheese, pickles, onions, tomato, lettuce, and house sauce on a grilled bun.", price: "$10.99", popular: true },
+    { name: "Chicago Hotdog", description: "Hotdog sausage with caramelized onions, grilled green pepper, mustard, ketchup, and mayo.", price: "$9.99" },
+    { name: "Mexican Bacon Hot Dog", description: "Bacon-wrapped beef hot dog with jalapeños, cheddar cheese, and avocado on a grilled bun.", price: "$10.99" },
+    { name: "Uptown Classic Burger", description: "Beef patty, American cheese, lettuce, tomatoes, mayo, and pickled red onion.", price: "$11.99" },
+    { name: "BBQ Burger", description: "Pulled pork thigh, mayo, lettuce, and tomato with optional fries on the side.", price: "$10.52" },
   ],
   Breakfast: [
-    { name: "Huevos Rancheros", description: "Two eggs on corn tortillas with ranchero sauce and beans", price: "$8.99" },
-    { name: "Chilaquiles", description: "Crispy tortilla chips in salsa verde or roja, with eggs and cream", price: "$9.49", popular: true },
-    { name: "Breakfast Plate", description: "Eggs any style with rice, beans, and fresh tortillas", price: "$7.99" },
+    { name: "Uptown Hot Chicken & Waffle", description: "Crispy hot chicken paired with a house-made waffle and maple syrup.", price: "$14.99", popular: true },
+    { name: "Uptown Classic Breakfast", description: "Three pancakes, bacon, and scrambled egg.", price: "$12.99", image: breakfastImage },
+    { name: "Sausage, Bacon, Egg & Cheese Biscuit", description: "Buttermilk biscuit with fried egg, cheddar cheese, pork sausage, and smoked bacon.", price: "$7.99" },
+    { name: "Simple Baleada", description: "Traditional Honduran flour tortilla filled with beans, Honduran cream, and cheese.", price: "$5.99" },
+    { name: "Omelette", description: "Choice of meat, bell peppers, onions, tomatoes, mozzarella cheese, and a slice of toast.", price: "$15.20" },
+    { name: "Special Baleada", description: "Warm flour tortilla with beans, cheese, eggs, and choice of steak or chicken.", price: "$8.99" },
+    { name: "Super Waffle", description: "Homemade Belgian waffle topped with powdered sugar and fresh fruit.", price: "$12.99" },
+    { name: "Uptown Bagel", description: "Toasted bagel with cream cheese, smoked salmon, tomato, red onion, and capers.", price: "$7.99" },
+  ],
+  Sides: [
+    { name: "2pc Colombian Empanadas", description: "Two Colombian empanadas with your choice of beef or chicken filling.", price: "$6.99", image: empanadasImage, popular: true },
+    { name: "Rice", description: "Flavorful rice prepared as the perfect side for any meal.", price: "$4.67" },
+    { name: "Fries", description: "Crispy golden potato strips, seasoned and fried fresh.", price: "$3.50", image: friesImage },
+    { name: "Green Salsa", description: "Tomatillos, jalapeños, cilantro, onions, lime juice, and garlic.", price: "$3.50" },
+    { name: "Red Salsa", description: "Tomatoes, onions, and spicy chiles blended into a classic salsa.", price: "$3.50" },
+    { name: "Beans", description: "Freshly simmered, seasoned beans.", price: "$4.67" },
+    { name: "Guacamole", description: "Fresh avocado dip seasoned with lime and cilantro.", price: "$4.67" },
+    { name: "Side Salad", description: "Crisp, refreshing green salad.", price: "$4.67" },
+  ],
+  Desserts: [
+    { name: "Cheese Cake", description: "Smooth, rich, and creamy cheesecake.", price: "$5.84", image: cheesecakeImage, popular: true },
+    { name: "Red Velvet Cake", description: "Red velvet cake with cream cheese frosting and subtle cocoa flavor.", price: "$5.84" },
   ],
   Drinks: [
-    { name: "Agua de Horchata", description: "Sweet rice milk with cinnamon and vanilla", price: "$3.49", image: placeholderImage, popular: true },
-    { name: "Agua de Jamaica", description: "Refreshing hibiscus flower water", price: "$3.49" },
-    { name: "Fresh Fruit Smoothie", description: "Mango, strawberry, or mixed tropical fruit", price: "$5.49" },
-    { name: "Mexican Coca-Cola", description: "Classic glass bottle Coke with real cane sugar", price: "$2.49" },
+    { name: "Sodas", description: "A selection of carbonated beverages including cola, root beer, and orange soda.", price: "$3.50" },
+    { name: "Jumex", description: "Fruit juice available in assorted flavors.", price: "$1.98" },
+    { name: "Aquas", description: "Still water for simple, refreshing hydration.", price: "$4.10" },
+    { name: "Coca Lata", description: "Canned Coca-Cola with the iconic crisp taste.", price: "$1.86" },
+    { name: "Bottled Water", description: "Pure and refreshing bottled water.", price: "$1.76" },
+  ],
+  Platters: [
+    { name: "Taco Birria Plate", description: "Braised beef birria tacos served with cilantro, onions, and a side of consommé.", price: "$17.99", image: tacoPlateImage, popular: true },
+    { name: "Fried Tilapia", description: "Whole fried tilapia served with rice, beans, and salad.", price: "$21.05" },
+    { name: "Grilled Chicken Salad", description: "Grilled chicken, lettuce, tomato, cucumber, spinach, and avocado.", price: "$11.69" },
+    { name: "Carne Asada", description: "Beef chuck roll with rice, beans, guacamole, and pico de gallo.", price: "$19.88" },
+    { name: "Pollo con Tajadas", description: "Fried chicken, fried green plantains, shredded cabbage, tomato sauce, pickled vegetables, pink sauce, and chismol.", price: "$19.88" },
+  ],
+  "Fresh Juices": [
+    { name: "Smoothie — Strawberry Banana", description: "Strawberries and bananas blended with yogurt and orange juice.", price: "$9.99", image: smoothieImage, popular: true },
+    { name: "Green Juice", description: "Lemon, spinach, cucumber, ginger, and green apple blended fresh.", price: "$9.99" },
+    { name: "Smoothie — Orange Piña", description: "Fresh orange juice and pineapple blended with tropical fruit.", price: "$9.99" },
+    { name: "Smoothie — Berries", description: "Strawberries, blueberries, and raspberries blended with orange juice.", price: "$9.99" },
+    { name: "Choose Your Own Juice", description: "Choose up to two: banana, strawberry, papaya, melon, pineapple, mango, blueberry, blackberry, orange, lemon, green apple, or ginger.", price: "$9.99" },
+    { name: "Fresh Squeezed Orange Juice", description: "Freshly squeezed orange juice with natural pulp.", price: "$9.99" },
   ],
 };
 
