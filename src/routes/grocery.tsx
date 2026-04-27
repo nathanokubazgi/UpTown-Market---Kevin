@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import placeholderImage from "@/assets/placeholder-blank.jpg";
 import meatImage from "@/assets/meat-counter-1.jpg";
+import groceryAisleImage from "@/assets/grocery-aisle-real.png";
 
 export const Route = createFileRoute("/grocery")({
   head: () => ({
@@ -59,7 +60,7 @@ const categories: GroceryCategory[] = [
   {
     name: "Specialty & Pantry",
     description: "Authentic spices, salsas, dried chiles, canned goods, and imported specialties.",
-    image: placeholderImage,
+    image: groceryAisleImage,
     icon: "🌶️",
     products: ["Dried Chiles", "Mole Paste", "Hominy", "Mexican Rice", "Refried Beans", "Hot Sauces", "Tamarind Candy", "Maseca"],
   },

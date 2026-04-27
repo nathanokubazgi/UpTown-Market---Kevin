@@ -9,6 +9,7 @@ import placeholderImage from "@/assets/placeholder-blank.jpg";
 import orderOnlineImage from "@/assets/order-online-real-v2.jpg";
 import deliCounterImage from "@/assets/deli-counter.jpg";
 import frontCoverImage from "@/assets/uptown-front-cover.png";
+import groceryAisleImage from "@/assets/grocery-aisle-real.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -31,7 +32,7 @@ const weeklySpecials = [
 
 const quickLinks = [
   { to: "/menu", label: "Food Menu", description: "Tacos, burritos, breakfast & more", icon: "🌮", image: placeholderImage },
-  { to: "/grocery", label: "Grocery", description: "Fresh produce, meats & specialty items", icon: "🥑", image: placeholderImage },
+  { to: "/grocery", label: "Grocery", description: "Fresh produce, meats & specialty items", icon: "🥑", image: groceryAisleImage },
   { to: "/order", label: "Order Online", description: "UberEats, DoorDash & more", icon: "📱", image: orderOnlineImage },
 ] as const;
 
