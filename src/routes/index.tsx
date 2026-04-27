@@ -8,6 +8,7 @@ import { SnapEbtBanner } from "@/components/SnapEbtBanner";
 import placeholderImage from "@/assets/placeholder-blank.jpg";
 import orderOnlineImage from "@/assets/order-online-real-v2.jpg";
 import deliCounterImage from "@/assets/deli-counter.jpg";
+import frontCoverImage from "@/assets/uptown-front-cover.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -40,7 +41,7 @@ function HomePage() {
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={placeholderImage} alt="Blank photo placeholder for future Uptown Fresh Market hero image" className="h-full w-full object-cover" width={1920} height={1080} />
+          <img src={frontCoverImage} alt="Uptown Fresh Market storefront sign" className="h-full w-full object-cover" width={1264} height={716} />
           <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/60 to-foreground/30" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:py-40">
