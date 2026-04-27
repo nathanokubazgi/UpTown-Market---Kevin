@@ -18,7 +18,7 @@ export const Route = createFileRoute("/order")({
 });
 
 const platforms = [
-  { name: "UberEats", color: "bg-[#06C167]", textColor: "text-[#ffffff]", url: "https://www.ubereats.com", description: "Fast delivery, real-time tracking" },
+  { name: "UberEats", color: "bg-[#06C167]", textColor: "text-[#ffffff]", url: "https://www.ubereats.com/store/uptown-fresh-market/xuvU24kMT1286qYy23ViKw?utm_campaign=CM2508149-search-free-nonbrand-google-pas-grocohol_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas-grocohol&rwg_token=AFd1xnHk5VdNwhFqlQtideQU6hqZNwkI0_B0QRINsPeGgj0Y0PVxdLANMSHfny-LaKGaaaz5BMzex0u6H6-ifURWRLWlqx-vBDwb68zGIxx-1gx6yZ98WSo%3D", description: "Fast delivery, real-time tracking" },
   { name: "DoorDash", color: "bg-[#FF3008]", textColor: "text-[#ffffff]", url: "https://www.doordash.com/store/uptown-fresh-market-nashville-24619430/18661149/?rwg_token=AFd1xnGETMHNqW5JFcyGZ21EV4op2xFonXoS-AiAQ7WGiRsmpVSXfhlgGkimEpJ_nb_EPd_UTWlbgODH6V6FhbYefXtGkV76miBXoZ-s2VLnXGpuuwljgSI=&utm_campaign=gpa", description: "DashPass eligible, quick delivery" },
   { name: "GrubHub", color: "bg-[#F63440]", textColor: "text-[#ffffff]", url: "https://www.grubhub.com", description: "Rewards points, scheduled orders" },
   { name: "Postmates", color: "bg-[#FFB800]", textColor: "text-[#000000]", url: "https://www.postmates.com", description: "Pickup and delivery options" },
