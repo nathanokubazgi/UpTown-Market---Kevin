@@ -10,6 +10,7 @@ import meatCounter2 from "@/assets/meat-counter-2.jpg";
 import meatCounter3 from "@/assets/meat-counter-3.jpg";
 import meatCounter4 from "@/assets/meat-counter-4-real.jpg";
 import meatCounter5 from "@/assets/meat-counter-5-real.jpg";
+import groceryAisleImage from "@/assets/grocery-aisle-real.png";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -30,6 +31,7 @@ const galleryImages = [
   { src: meatCounter3, alt: "Pork and chicken selection in the meat case with cookware on the shelf above" },
   { src: meatCounter4, alt: "Meat and seafood counter with tortillas, shrimp, fish fillets, pork cuts, and handwritten price signs" },
   { src: meatCounter5, alt: "Close-up of the meat and seafood counter with ceviche mix, fish fillets, pork belly, and tortillas" },
+  { src: groceryAisleImage, alt: "Grocery aisle with tortillas, snacks, candy, and imported pantry items at Uptown Fresh Market" },
   { src: placeholderImage, alt: "Blank photo placeholder for future produce image" },
   { src: placeholderImage, alt: "Blank photo placeholder for future bakery image" },
   { src: placeholderImage, alt: "Blank photo placeholder for future dairy image" },
