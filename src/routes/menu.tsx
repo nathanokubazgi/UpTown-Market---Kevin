@@ -14,6 +14,7 @@ import breakfastImage from "@/assets/dd-food-7.jpg";
 import tacoPlateImage from "@/assets/dd-food-8.jpg";
 import burritoImage from "@/assets/dd-food-9.jpg";
 import cheesecakeImage from "@/assets/dd-food-10.jpg";
+import foodMenuBoardImage from "@/assets/food-menu-board.png";
 
 export const Route = createFileRoute("/menu")({
   head: () => ({
@@ -140,6 +141,16 @@ function MenuPage() {
 
       <div className="mt-6">
         <SnapEbtBanner />
+      </div>
+
+      <div className="mt-10 overflow-hidden rounded-lg border border-border">
+        <img
+          src={foodMenuBoardImage}
+          alt="Uptown Fresh Market food menu counter and menu boards"
+          className="h-auto w-full object-cover"
+          width={1708}
+          height={1284}
+        />
       </div>
 
       <Tabs defaultValue={categories[0]} className="mt-10">
