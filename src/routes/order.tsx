@@ -60,9 +60,9 @@ function OrderPage() {
       <div className="mt-12 rounded-lg bg-market-cream p-8 text-center">
         <h3 className="text-xl font-semibold text-foreground">Prefer to Call?</h3>
         <p className="mt-2 text-muted-foreground">Call ahead for pickup orders and large catering requests</p>
-        <a href="tel:+16155551234" className="mt-4 inline-block">
+        <a href="tel:+16153317405" className="mt-4 inline-block">
           <Button size="lg" variant="outline" className="gap-2">
-            📞 Call (615) 555-1234
+            📞 Call (615) 331-7405
           </Button>
         </a>
       </div>

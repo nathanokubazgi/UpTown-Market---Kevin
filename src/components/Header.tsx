@@ -38,10 +38,10 @@ export function Header() {
         </nav>
 
         <div className="hidden items-center gap-2 lg:flex">
-          <a href="tel:+16155551234" aria-label="Call us">
+          <a href="tel:+16153317405" aria-label="Call us">
             <Button variant="outline" size="sm" className="gap-1.5">
               <Phone className="h-4 w-4" />
-              <span className="hidden xl:inline">(615) 555-1234</span>
+              <span className="hidden xl:inline">(615) 331-7405</span>
             </Button>
           </a>
           <Link to="/order">
@@ -75,7 +75,7 @@ export function Header() {
             </Link>
           ))}
           <div className="mt-3 flex gap-2">
-            <a href="tel:+16155551234" className="flex-1">
+            <a href="tel:+16153317405" className="flex-1">
               <Button variant="outline" size="sm" className="w-full gap-1.5">
                 <Phone className="h-4 w-4" /> Call Now
               </Button>

@@ -75,9 +75,9 @@ function ContactPage() {
                 <Phone className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
                 <div>
                   <h3 className="font-semibold text-foreground">Phone</h3>
-                  <a href="tel:+16155551234" className="text-sm text-muted-foreground hover:text-primary">(615) 555-1234</a>
+                  <a href="tel:+16153317405" className="text-sm text-muted-foreground hover:text-primary">(615) 331-7405</a>
                   <div className="mt-1">
-                    <a href="tel:+16155551234">
+                    <a href="tel:+16153317405">
                       <Button size="sm" variant="outline" className="gap-1.5 sm:hidden">
                         <Phone className="h-3.5 w-3.5" /> Call Now
                       </Button>
