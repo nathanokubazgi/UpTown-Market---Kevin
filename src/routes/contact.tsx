@@ -12,9 +12,9 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact & Location — Uptown Fresh Market" },
-      { name: "description", content: "Find Uptown Fresh Market at 4501 Clarksville Pike, Nashville, TN. Get directions, hours, phone number, and send us a message." },
+      { name: "description", content: "Find Uptown Fresh Market at 3901 Apache Trl, Antioch, TN. Get directions, hours, phone number, and send us a message." },
       { property: "og:title", content: "Contact & Location — Uptown Fresh Market" },
-      { property: "og:description", content: "Find us at 4501 Clarksville Pike, Nashville. Get directions, hours & contact info." },
+      { property: "og:description", content: "Find us at 3901 Apache Trl, Antioch. Get directions, hours & contact info." },
     ],
   }),
   component: ContactPage,
@@ -59,9 +59,9 @@ function ContactPage() {
                 <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
                 <div>
                   <h3 className="font-semibold text-foreground">Address</h3>
-                  <p className="text-sm text-muted-foreground">4501 Clarksville Pike<br />Nashville, TN 37218</p>
+                  <p className="text-sm text-muted-foreground">3901 Apache Trl<br />Antioch, TN 37013</p>
                   <a
-                    href="https://www.google.com/maps/dir/?api=1&destination=4501+Clarksville+Pike+Nashville+TN+37218"
+                    href="https://www.google.com/maps/dir/?api=1&destination=3901+Apache+Trl+Antioch+TN+37013"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-1 inline-block text-sm font-medium text-primary hover:underline"
@@ -111,7 +111,7 @@ function ContactPage() {
           <div className="aspect-[16/10] overflow-hidden rounded-lg border border-border">
             <iframe
               title="Uptown Fresh Market Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.5!2d-86.83!3d36.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDEyJzAwLjAiTiA4NsKwNDknNDguMCJX!5e0!3m2!1sen!2sus!4v1"
+              src="https://www.google.com/maps?q=3901+Apache+Trl,+Antioch,+TN+37013&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}

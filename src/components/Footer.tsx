@@ -50,7 +50,7 @@ export function Footer() {
             <ul className="mt-3 space-y-3 text-sm text-muted-foreground">
               <li className="flex gap-2">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                <span>4501 Clarksville Pike, Nashville, TN 37218</span>
+                <span>3901 Apache Trl, Antioch, TN 37013</span>
               </li>
               <li className="flex gap-2">
                 <Phone className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
