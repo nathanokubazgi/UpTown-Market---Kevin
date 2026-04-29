@@ -14,6 +14,9 @@ import groceryAisleImage from "@/assets/grocery-aisle-real.png";
 import produceDisplay1 from "@/assets/produce-display-1.png";
 import produceDisplay2 from "@/assets/produce-display-2.png";
 import produceDisplay3 from "@/assets/produce-display-3.png";
+import produceDisplay4 from "@/assets/produce-display-4.png";
+import produceDisplay5 from "@/assets/produce-display-5.png";
+import produceDisplay6 from "@/assets/produce-display-6.png";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -37,6 +40,9 @@ const galleryImages = [
   { src: produceDisplay1, alt: "Fresh produce display with dragon fruit, melons, pomegranates, grapes, bananas, and plantains" },
   { src: produceDisplay2, alt: "Produce cooler with cabbage, corn, bell peppers, limes, lemons, jalapeños, carrots, and greens" },
   { src: produceDisplay3, alt: "Produce aisle with packaged greens, tortillas, peppers, tomatoes, herbs, mangoes, and avocados" },
+  { src: produceDisplay4, alt: "Dried chiles, Jamaica, beans, corn, and pantry staples displayed in market bins" },
+  { src: produceDisplay5, alt: "Fresh potatoes, onions, sweet potatoes, yams, malanga, plantains, and coconuts" },
+  { src: produceDisplay6, alt: "Fruit display with pineapple, papaya, apples, mangoes, avocados, oranges, limes, and tomatoes" },
   { src: groceryAisleImage, alt: "Grocery aisle with tortillas, snacks, candy, and imported pantry items at Uptown Fresh Market" },
   { src: placeholderImage, alt: "Blank photo placeholder for future bakery image" },
   { src: placeholderImage, alt: "Blank photo placeholder for future dairy image" },
