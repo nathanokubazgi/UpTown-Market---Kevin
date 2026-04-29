@@ -25,6 +25,9 @@ import householdAisleImage from "@/assets/household-aisle.png";
 import galleryCleaningAisle from "@/assets/gallery-cleaning-aisle.png";
 import gallerySpiceAisle from "@/assets/gallery-spice-aisle.png";
 import galleryCookingOilAisle from "@/assets/gallery-cooking-oil-aisle.png";
+import galleryProduceCoolerWide from "@/assets/gallery-produce-cooler-wide.png";
+import galleryPreparedFoodSpread from "@/assets/gallery-prepared-food-spread.png";
+import galleryHotFoodBar from "@/assets/gallery-hot-food-bar.png";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -59,6 +62,9 @@ const galleryImages = [
   { src: galleryCleaningAisle, alt: "Cleaning aisle with laundry detergent, fabric softener, dish soap, and household supplies" },
   { src: gallerySpiceAisle, alt: "Seasoning aisle with spices, herbs, salt, sauces, taco kits, and pantry staples" },
   { src: galleryCookingOilAisle, alt: "Grocery aisle with cooking oils, vinegar, corn flour, rice, beans, and baking staples" },
+  { src: galleryProduceCoolerWide, alt: "Wide produce cooler with cabbage, peppers, grapes, herbs, cucumbers, nopales, tortillas, and fresh fruit" },
+  { src: galleryPreparedFoodSpread, alt: "Prepared Mexican food spread with tacos, tortas, plates, burritos, pancakes, fruit, and pickled vegetables" },
+  { src: galleryHotFoodBar, alt: "Hot food bar with rice, beans, plantains, stews, roasted chicken, beef, potatoes, and pasta" },
   { src: groceryAisleImage, alt: "Grocery aisle with tortillas, snacks, candy, and imported pantry items at Uptown Fresh Market" },
   { src: placeholderImage, alt: "Blank photo placeholder for future bakery image" },
   { src: placeholderImage, alt: "Blank photo placeholder for future dairy image" },
