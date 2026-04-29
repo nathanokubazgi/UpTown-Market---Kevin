@@ -25,41 +25,123 @@ import householdAisleImage from "@/assets/household-aisle.png";
 import galleryCleaningAisle from "@/assets/gallery-cleaning-aisle.png";
 import gallerySpiceAisle from "@/assets/gallery-spice-aisle.png";
 import galleryCookingOilAisle from "@/assets/gallery-cooking-oil-aisle.png";
+import galleryProduceCoolerWide from "@/assets/gallery-produce-cooler-wide.png";
+import galleryPreparedFoodSpread from "@/assets/gallery-prepared-food-spread.png";
+import galleryHotFoodBar from "@/assets/gallery-hot-food-bar.png";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
       { title: "Photo Gallery — Uptown Fresh Market" },
-      { name: "description", content: "Browse photos of Uptown Fresh Market Nashville — our store, fresh produce, prepared foods, bakery, and more." },
+      {
+        name: "description",
+        content:
+          "Browse photos of Uptown Fresh Market Nashville — our store, fresh produce, prepared foods, bakery, and more.",
+      },
       { property: "og:title", content: "Photo Gallery — Uptown Fresh Market" },
-      { property: "og:description", content: "Browse photos of our store, fresh produce, prepared foods, and more." },
+      {
+        property: "og:description",
+        content: "Browse photos of our store, fresh produce, prepared foods, and more.",
+      },
     ],
   }),
   component: GalleryPage,
 });
 
 const galleryImages = [
-  { src: deliCounterImage, alt: "Uptown Fresh Market deli counter with prepared foods, drinks, and Tacos & Mas menu boards" },
-  { src: meatCounter1, alt: "Meat counter with fresh beef cuts, ground meat, and Fud cold cuts on display" },
+  {
+    src: deliCounterImage,
+    alt: "Uptown Fresh Market deli counter with prepared foods, drinks, and Tacos & Mas menu boards",
+  },
+  {
+    src: meatCounter1,
+    alt: "Meat counter with fresh beef cuts, ground meat, and Fud cold cuts on display",
+  },
   { src: meatCounter2, alt: "Butcher case with marinated meats, chorizo, fajita, and pork chops" },
-  { src: meatCounter3, alt: "Pork and chicken selection in the meat case with cookware on the shelf above" },
-  { src: meatCounter4, alt: "Meat and seafood counter with tortillas, shrimp, fish fillets, pork cuts, and handwritten price signs" },
-  { src: meatCounter5, alt: "Close-up of the meat and seafood counter with ceviche mix, fish fillets, pork belly, and tortillas" },
-  { src: produceDisplay1, alt: "Fresh produce display with dragon fruit, melons, pomegranates, grapes, bananas, and plantains" },
-  { src: produceDisplay2, alt: "Produce cooler with cabbage, corn, bell peppers, limes, lemons, jalapeños, carrots, and greens" },
-  { src: produceDisplay3, alt: "Produce aisle with packaged greens, tortillas, peppers, tomatoes, herbs, mangoes, and avocados" },
-  { src: produceDisplay4, alt: "Dried chiles, Jamaica, beans, corn, and pantry staples displayed in market bins" },
-  { src: produceDisplay5, alt: "Fresh potatoes, onions, sweet potatoes, yams, malanga, plantains, and coconuts" },
-  { src: produceDisplay6, alt: "Fruit display with pineapple, papaya, apples, mangoes, avocados, oranges, limes, and tomatoes" },
-  { src: galleryMarket1, alt: "Produce section with sugar cane, tomatoes, mangoes, guavas, bananas, and fresh greens" },
-  { src: galleryMarket2, alt: "Produce display with pomegranates, apples, pears, plantains, yuca, nopales, and citrus" },
-  { src: galleryMeat1, alt: "Fresh meat counter with beef cuts, pork belly, chuck roll, knuckles, and eye round" },
-  { src: dairyDisplayImage, alt: "Dairy case with cheeses, sour cream, butter, eggs, bacon, and deli meats" },
-  { src: householdAisleImage, alt: "Household aisle with paper towels, bath tissue, napkins, soap, and cleaning supplies" },
-  { src: galleryCleaningAisle, alt: "Cleaning aisle with laundry detergent, fabric softener, dish soap, and household supplies" },
-  { src: gallerySpiceAisle, alt: "Seasoning aisle with spices, herbs, salt, sauces, taco kits, and pantry staples" },
-  { src: galleryCookingOilAisle, alt: "Grocery aisle with cooking oils, vinegar, corn flour, rice, beans, and baking staples" },
-  { src: groceryAisleImage, alt: "Grocery aisle with tortillas, snacks, candy, and imported pantry items at Uptown Fresh Market" },
+  {
+    src: meatCounter3,
+    alt: "Pork and chicken selection in the meat case with cookware on the shelf above",
+  },
+  {
+    src: meatCounter4,
+    alt: "Meat and seafood counter with tortillas, shrimp, fish fillets, pork cuts, and handwritten price signs",
+  },
+  {
+    src: meatCounter5,
+    alt: "Close-up of the meat and seafood counter with ceviche mix, fish fillets, pork belly, and tortillas",
+  },
+  {
+    src: produceDisplay1,
+    alt: "Fresh produce display with dragon fruit, melons, pomegranates, grapes, bananas, and plantains",
+  },
+  {
+    src: produceDisplay2,
+    alt: "Produce cooler with cabbage, corn, bell peppers, limes, lemons, jalapeños, carrots, and greens",
+  },
+  {
+    src: produceDisplay3,
+    alt: "Produce aisle with packaged greens, tortillas, peppers, tomatoes, herbs, mangoes, and avocados",
+  },
+  {
+    src: produceDisplay4,
+    alt: "Dried chiles, Jamaica, beans, corn, and pantry staples displayed in market bins",
+  },
+  {
+    src: produceDisplay5,
+    alt: "Fresh potatoes, onions, sweet potatoes, yams, malanga, plantains, and coconuts",
+  },
+  {
+    src: produceDisplay6,
+    alt: "Fruit display with pineapple, papaya, apples, mangoes, avocados, oranges, limes, and tomatoes",
+  },
+  {
+    src: galleryMarket1,
+    alt: "Produce section with sugar cane, tomatoes, mangoes, guavas, bananas, and fresh greens",
+  },
+  {
+    src: galleryMarket2,
+    alt: "Produce display with pomegranates, apples, pears, plantains, yuca, nopales, and citrus",
+  },
+  {
+    src: galleryMeat1,
+    alt: "Fresh meat counter with beef cuts, pork belly, chuck roll, knuckles, and eye round",
+  },
+  {
+    src: dairyDisplayImage,
+    alt: "Dairy case with cheeses, sour cream, butter, eggs, bacon, and deli meats",
+  },
+  {
+    src: householdAisleImage,
+    alt: "Household aisle with paper towels, bath tissue, napkins, soap, and cleaning supplies",
+  },
+  {
+    src: galleryCleaningAisle,
+    alt: "Cleaning aisle with laundry detergent, fabric softener, dish soap, and household supplies",
+  },
+  {
+    src: gallerySpiceAisle,
+    alt: "Seasoning aisle with spices, herbs, salt, sauces, taco kits, and pantry staples",
+  },
+  {
+    src: galleryCookingOilAisle,
+    alt: "Grocery aisle with cooking oils, vinegar, corn flour, rice, beans, and baking staples",
+  },
+  {
+    src: galleryProduceCoolerWide,
+    alt: "Wide produce cooler with cabbage, peppers, grapes, herbs, cucumbers, nopales, tortillas, and fresh fruit",
+  },
+  {
+    src: galleryPreparedFoodSpread,
+    alt: "Prepared Mexican food spread with tacos, tortas, plates, burritos, pancakes, fruit, and pickled vegetables",
+  },
+  {
+    src: galleryHotFoodBar,
+    alt: "Hot food bar with rice, beans, plantains, stews, roasted chicken, beef, potatoes, and pasta",
+  },
+  {
+    src: groceryAisleImage,
+    alt: "Grocery aisle with tortillas, snacks, candy, and imported pantry items at Uptown Fresh Market",
+  },
   { src: placeholderImage, alt: "Blank photo placeholder for future bakery image" },
   { src: placeholderImage, alt: "Blank photo placeholder for future dairy image" },
   { src: placeholderImage, alt: "Blank photo placeholder for future specialty grocery image" },
@@ -72,15 +154,15 @@ function GalleryPage() {
 
   const openLightbox = (index: number) => setLightboxIndex(index);
   const closeLightbox = () => setLightboxIndex(null);
-  const prev = () => setLightboxIndex((i) => (i !== null ? (i - 1 + galleryImages.length) % galleryImages.length : null));
+  const prev = () =>
+    setLightboxIndex((i) =>
+      i !== null ? (i - 1 + galleryImages.length) % galleryImages.length : null,
+    );
   const next = () => setLightboxIndex((i) => (i !== null ? (i + 1) % galleryImages.length : null));
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-      <SectionHeading
-        title="Photo Gallery"
-        subtitle="Take a look inside Uptown Fresh Market"
-      />
+      <SectionHeading title="Photo Gallery" subtitle="Take a look inside Uptown Fresh Market" />
 
       <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
         {galleryImages.map((img, i) => (
@@ -115,7 +197,10 @@ function GalleryPage() {
             variant="ghost"
             size="icon"
             className="absolute right-4 top-4 text-primary-foreground hover:bg-primary-foreground/20"
-            onClick={(e) => { e.stopPropagation(); closeLightbox(); }}
+            onClick={(e) => {
+              e.stopPropagation();
+              closeLightbox();
+            }}
             aria-label="Close lightbox"
           >
             <X className="h-6 w-6" />
@@ -125,7 +210,10 @@ function GalleryPage() {
             variant="ghost"
             size="icon"
             className="absolute left-4 top-1/2 -translate-y-1/2 text-primary-foreground hover:bg-primary-foreground/20"
-            onClick={(e) => { e.stopPropagation(); prev(); }}
+            onClick={(e) => {
+              e.stopPropagation();
+              prev();
+            }}
             aria-label="Previous image"
           >
             <ChevronLeft className="h-8 w-8" />
@@ -142,7 +230,10 @@ function GalleryPage() {
             variant="ghost"
             size="icon"
             className="absolute right-4 top-1/2 -translate-y-1/2 text-primary-foreground hover:bg-primary-foreground/20"
-            onClick={(e) => { e.stopPropagation(); next(); }}
+            onClick={(e) => {
+              e.stopPropagation();
+              next();
+            }}
             aria-label="Next image"
           >
             <ChevronRight className="h-8 w-8" />
