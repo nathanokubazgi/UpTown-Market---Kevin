@@ -148,3 +148,44 @@
     font-family: var(--font-sans);
   }
 }
+
+@layer utilities {
+  @keyframes scroll-fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .scroll-reveal,
+  section,
+  article,
+  [data-slot="card"] {
+    animation: scroll-fade-up 0.7s ease both;
+  }
+
+  @supports (animation-timeline: view()) {
+    .scroll-reveal,
+    section,
+    article,
+    [data-slot="card"] {
+      animation-timeline: view();
+      animation-range: entry 8% cover 28%;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .scroll-reveal,
+    section,
+    article,
+    [data-slot="card"] {
+      animation: none;
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
