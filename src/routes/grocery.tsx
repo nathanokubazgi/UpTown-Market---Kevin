@@ -35,7 +35,7 @@ const categories: GroceryCategory[] = [
     description: "Locally sourced and imported fruits and vegetables, delivered fresh daily.",
     image: produceDisplayImage,
     icon: "🥬",
-    products: ["Dragon Fruit", "Pomegranates", "Cantaloupe", "Honeydew", "Papaya", "Pineapple", "Plantains", "Bananas", "Kiwi", "Peaches", "Plums", "Grapes", "Cabbage", "Cucumbers", "Carrots", "Bell Peppers", "Jalapeños", "Serrano Peppers", "Limes", "Lemons", "Tomatoes", "Onions", "Mangoes", "Cilantro", "Parsley", "Avocados", "Yuca", "Nopales"],
+    products: ["Dragon Fruit", "Pomegranates", "Cantaloupe", "Honeydew", "Papaya", "Pineapple", "Plantains", "Bananas", "Kiwi", "Peaches", "Plums", "Grapes", "Cabbage", "Cucumbers", "Carrots", "Bell Peppers", "Jalapeños", "Serrano Peppers", "Limes", "Lemons", "Tomatoes", "Onions", "Mangoes", "Cilantro", "Parsley", "Avocados", "Yuca", "Nopales", "Ancho Chiles", "Árbol Chiles", "Guajillo Chiles", "Pasilla Chiles", "Puya Chiles", "Chipotle Chiles", "Jamaica", "White Corn", "Pinto Beans", "Black Beans", "Red Beans", "Sweet Potatoes", "White Potatoes", "Red Potatoes", "Yams", "Malanga", "Green Bananas", "Coconuts", "Oranges", "Apples"],
   },
   {
     name: "Meat & Seafood",
