@@ -8,6 +8,7 @@ import placeholderImage from "@/assets/placeholder-blank.jpg";
 import meatImage from "@/assets/meat-counter-1.jpg";
 import groceryAisleImage from "@/assets/grocery-aisle-real.png";
 import produceDisplayImage from "@/assets/produce-display-1.png";
+import dairyDisplayImage from "@/assets/dairy-display.png";
 
 export const Route = createFileRoute("/grocery")({
   head: () => ({
@@ -54,7 +55,7 @@ const categories: GroceryCategory[] = [
   {
     name: "Dairy & Deli",
     description: "Fresh cheeses, cream, eggs, and deli items for your home cooking.",
-    image: placeholderImage,
+    image: dairyDisplayImage,
     icon: "🧀",
     products: ["Queso Fresco", "Oaxaca Cheese", "Crema Mexicana", "Cotija Cheese", "Fresh Eggs", "Whole Milk", "Butter"],
   },

@@ -20,6 +20,8 @@ import produceDisplay6 from "@/assets/produce-display-6.png";
 import galleryMarket1 from "@/assets/gallery-market-1.png";
 import galleryMarket2 from "@/assets/gallery-market-2.png";
 import galleryMeat1 from "@/assets/gallery-meat-1.png";
+import dairyDisplayImage from "@/assets/dairy-display.png";
+import householdAisleImage from "@/assets/household-aisle.png";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -49,6 +51,8 @@ const galleryImages = [
   { src: galleryMarket1, alt: "Produce section with sugar cane, tomatoes, mangoes, guavas, bananas, and fresh greens" },
   { src: galleryMarket2, alt: "Produce display with pomegranates, apples, pears, plantains, yuca, nopales, and citrus" },
   { src: galleryMeat1, alt: "Fresh meat counter with beef cuts, pork belly, chuck roll, knuckles, and eye round" },
+  { src: dairyDisplayImage, alt: "Dairy case with cheeses, sour cream, butter, eggs, bacon, and deli meats" },
+  { src: householdAisleImage, alt: "Household aisle with paper towels, bath tissue, napkins, soap, and cleaning supplies" },
   { src: groceryAisleImage, alt: "Grocery aisle with tortillas, snacks, candy, and imported pantry items at Uptown Fresh Market" },
   { src: placeholderImage, alt: "Blank photo placeholder for future bakery image" },
   { src: placeholderImage, alt: "Blank photo placeholder for future dairy image" },
