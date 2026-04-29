@@ -11,6 +11,9 @@ import meatCounter3 from "@/assets/meat-counter-3.jpg";
 import meatCounter4 from "@/assets/meat-counter-4-real.jpg";
 import meatCounter5 from "@/assets/meat-counter-5-real.jpg";
 import groceryAisleImage from "@/assets/grocery-aisle-real.png";
+import produceDisplay1 from "@/assets/produce-display-1.png";
+import produceDisplay2 from "@/assets/produce-display-2.png";
+import produceDisplay3 from "@/assets/produce-display-3.png";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -31,8 +34,10 @@ const galleryImages = [
   { src: meatCounter3, alt: "Pork and chicken selection in the meat case with cookware on the shelf above" },
   { src: meatCounter4, alt: "Meat and seafood counter with tortillas, shrimp, fish fillets, pork cuts, and handwritten price signs" },
   { src: meatCounter5, alt: "Close-up of the meat and seafood counter with ceviche mix, fish fillets, pork belly, and tortillas" },
+  { src: produceDisplay1, alt: "Fresh produce display with dragon fruit, melons, pomegranates, grapes, bananas, and plantains" },
+  { src: produceDisplay2, alt: "Produce cooler with cabbage, corn, bell peppers, limes, lemons, jalapeños, carrots, and greens" },
+  { src: produceDisplay3, alt: "Produce aisle with packaged greens, tortillas, peppers, tomatoes, herbs, mangoes, and avocados" },
   { src: groceryAisleImage, alt: "Grocery aisle with tortillas, snacks, candy, and imported pantry items at Uptown Fresh Market" },
-  { src: placeholderImage, alt: "Blank photo placeholder for future produce image" },
   { src: placeholderImage, alt: "Blank photo placeholder for future bakery image" },
   { src: placeholderImage, alt: "Blank photo placeholder for future dairy image" },
   { src: placeholderImage, alt: "Blank photo placeholder for future specialty grocery image" },

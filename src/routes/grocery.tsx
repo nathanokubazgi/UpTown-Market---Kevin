@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import placeholderImage from "@/assets/placeholder-blank.jpg";
 import meatImage from "@/assets/meat-counter-1.jpg";
 import groceryAisleImage from "@/assets/grocery-aisle-real.png";
+import produceDisplayImage from "@/assets/produce-display-1.png";
 
 export const Route = createFileRoute("/grocery")({
   head: () => ({
@@ -32,9 +33,9 @@ const categories: GroceryCategory[] = [
   {
     name: "Fresh Produce",
     description: "Locally sourced and imported fruits and vegetables, delivered fresh daily.",
-    image: placeholderImage,
+    image: produceDisplayImage,
     icon: "🥬",
-    products: ["Avocados", "Tomatoes", "Jalapeños", "Cilantro", "Limes", "Mangoes", "Nopales", "Tomatillos", "Plantains", "Yuca"],
+    products: ["Dragon Fruit", "Pomegranates", "Cantaloupe", "Honeydew", "Papaya", "Pineapple", "Plantains", "Bananas", "Kiwi", "Peaches", "Plums", "Grapes", "Cabbage", "Cucumbers", "Carrots", "Bell Peppers", "Jalapeños", "Serrano Peppers", "Limes", "Lemons", "Tomatoes", "Onions", "Mangoes", "Cilantro", "Parsley", "Avocados", "Yuca", "Nopales"],
   },
   {
     name: "Meat & Seafood",
