@@ -22,6 +22,9 @@ import galleryMarket2 from "@/assets/gallery-market-2.png";
 import galleryMeat1 from "@/assets/gallery-meat-1.png";
 import dairyDisplayImage from "@/assets/dairy-display.png";
 import householdAisleImage from "@/assets/household-aisle.png";
+import galleryCleaningAisle from "@/assets/gallery-cleaning-aisle.png";
+import gallerySpiceAisle from "@/assets/gallery-spice-aisle.png";
+import galleryCookingOilAisle from "@/assets/gallery-cooking-oil-aisle.png";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -53,6 +56,9 @@ const galleryImages = [
   { src: galleryMeat1, alt: "Fresh meat counter with beef cuts, pork belly, chuck roll, knuckles, and eye round" },
   { src: dairyDisplayImage, alt: "Dairy case with cheeses, sour cream, butter, eggs, bacon, and deli meats" },
   { src: householdAisleImage, alt: "Household aisle with paper towels, bath tissue, napkins, soap, and cleaning supplies" },
+  { src: galleryCleaningAisle, alt: "Cleaning aisle with laundry detergent, fabric softener, dish soap, and household supplies" },
+  { src: gallerySpiceAisle, alt: "Seasoning aisle with spices, herbs, salt, sauces, taco kits, and pantry staples" },
+  { src: galleryCookingOilAisle, alt: "Grocery aisle with cooking oils, vinegar, corn flour, rice, beans, and baking staples" },
   { src: groceryAisleImage, alt: "Grocery aisle with tortillas, snacks, candy, and imported pantry items at Uptown Fresh Market" },
   { src: placeholderImage, alt: "Blank photo placeholder for future bakery image" },
   { src: placeholderImage, alt: "Blank photo placeholder for future dairy image" },
