@@ -9,6 +9,7 @@ import meatImage from "@/assets/meat-counter-1.jpg";
 import groceryAisleImage from "@/assets/grocery-aisle-real.png";
 import produceDisplayImage from "@/assets/produce-display-1.png";
 import dairyDisplayImage from "@/assets/dairy-display.png";
+import householdAisleImage from "@/assets/household-aisle.png";
 
 export const Route = createFileRoute("/grocery")({
   head: () => ({
@@ -65,6 +66,13 @@ const categories: GroceryCategory[] = [
     image: groceryAisleImage,
     icon: "🌶️",
     products: ["Dried Chiles", "Mole Paste", "Hominy", "Mexican Rice", "Refried Beans", "Hot Sauces", "Tamarind Candy", "Maseca"],
+  },
+  {
+    name: "Home Necessities",
+    description: "Cleaning supplies, paper goods, laundry, and everyday household essentials.",
+    image: householdAisleImage,
+    icon: "🧻",
+    products: ["Paper Towels", "Bath Tissue", "Napkins", "Laundry Detergent", "Fabric Softener", "Dish Soap", "Hand Soap", "Bleach", "All-Purpose Cleaner", "Trash Bags", "Sponges", "Aluminum Foil", "Plastic Wrap", "Storage Bags"],
   },
 ];
 
