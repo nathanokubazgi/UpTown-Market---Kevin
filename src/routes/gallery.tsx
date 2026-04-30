@@ -34,6 +34,9 @@ import gallerySodaAisle from "@/assets/gallery-soda-aisle.png";
 import galleryBeverageWall from "@/assets/gallery-beverage-wall.png";
 import galleryMarinatedMeats from "@/assets/gallery-marinated-meats.png";
 import personalCareAisleImage from "@/assets/personal-care-aisle.png";
+import galleryCookiesAisle from "@/assets/gallery-cookies-aisle.png";
+import galleryTortillasBeans from "@/assets/gallery-tortillas-beans.png";
+import galleryButcherCase from "@/assets/gallery-butcher-case.png";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -167,6 +170,18 @@ const galleryImages = [
   {
     src: personalCareAisleImage,
     alt: "Personal care aisle with shampoo, conditioner, body wash, deodorant, soap, and hair care products",
+  },
+  {
+    src: galleryCookiesAisle,
+    alt: "Cookies and galletas aisle with El Mexicano, Gamesa, Cuétara, Marinela, Oreo, Ritz, and Mexican wafers and crackers",
+  },
+  {
+    src: galleryTortillasBeans,
+    alt: "End-cap display with La Costeña pinto and black beans, Abuelita chocolate, fresh tortillas, sopes, and jasmine rice",
+  },
+  {
+    src: galleryButcherCase,
+    alt: "Butcher case with T-bone steak, chicharrón molido, cola de res, beef eye round, ribeye, pork belly, and chorizo",
   },
   {
     src: groceryAisleImage,

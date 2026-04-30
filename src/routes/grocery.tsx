@@ -11,6 +11,7 @@ import produceDisplayImage from "@/assets/produce-display-1.png";
 import dairyDisplayImage from "@/assets/dairy-display.png";
 import householdAisleImage from "@/assets/household-aisle.png";
 import personalCareAisleImage from "@/assets/personal-care-aisle.png";
+import bakeryImage from "@/assets/gallery-cookies-aisle.png";
 
 export const Route = createFileRoute("/grocery")({
   head: () => ({
@@ -50,7 +51,7 @@ const categories: GroceryCategory[] = [
   {
     name: "Bakery",
     description: "Fresh-baked breads, pastries, and traditional Mexican sweet bread daily.",
-    image: placeholderImage,
+    image: bakeryImage,
     icon: "🍞",
     products: ["Conchas", "Bolillos", "Pan Dulce", "Tres Leches Cake", "Tortillas (Corn & Flour)", "Empanadas", "Churros"],
   },
