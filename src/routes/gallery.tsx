@@ -157,6 +157,18 @@ const galleryImages = [
     alt: "Soda aisle stocked with Coca-Cola, Sprite, Fanta, Dr Pepper, Jarritos, Sangria, and Mexican imported sodas",
   },
   {
+    src: galleryBeverageWall,
+    alt: "Beverage wall with Prime, Gatorade, Jarritos, Boing, Sangria, juices, aguas frescas, Jumex, energy drinks, and imported sodas",
+  },
+  {
+    src: galleryMarinatedMeats,
+    alt: "Butcher case with marinated pollo adobado, bistec adobado, costilla de res, al pastor, chorizo, and fresh ribeye and round steak",
+  },
+  {
+    src: personalCareAisleImage,
+    alt: "Personal care aisle with shampoo, conditioner, body wash, deodorant, soap, and hair care products",
+  },
+  {
     src: groceryAisleImage,
     alt: "Grocery aisle with tortillas, snacks, candy, and imported pantry items at Uptown Fresh Market",
   },
