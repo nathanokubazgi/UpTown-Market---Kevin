@@ -37,6 +37,9 @@ import personalCareAisleImage from "@/assets/personal-care-aisle.png";
 import galleryCookiesAisle from "@/assets/gallery-cookies-aisle.png";
 import galleryTortillasBeans from "@/assets/gallery-tortillas-beans.png";
 import galleryButcherCase from "@/assets/gallery-butcher-case.png";
+import gallerySaucesAisle from "@/assets/gallery-sauces-aisle.png";
+import galleryJuicesMilk from "@/assets/gallery-juices-milk.png";
+import galleryMeatSeafoodCase from "@/assets/gallery-meat-seafood-case.png";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -186,6 +189,18 @@ const galleryImages = [
   {
     src: groceryAisleImage,
     alt: "Grocery aisle with tortillas, snacks, candy, and imported pantry items at Uptown Fresh Market",
+  },
+  {
+    src: gallerySaucesAisle,
+    alt: "Sauces and condiments aisle with hot sauces, salsas, mayo, mustard, ketchup, BBQ sauce, and Mexican adobos",
+  },
+  {
+    src: galleryJuicesMilk,
+    alt: "Refrigerated beverage aisle with Suero Oral, Electrolit, Simply juices, Tropicana, Sunny D, Lala milk, Silk, Lactaid, and creamers",
+  },
+  {
+    src: galleryMeatSeafoodCase,
+    alt: "Meat and seafood case with whole tilapia, catfish fillets, shrimp, pork belly, pork chops, chicken, and queso fresco",
   },
   { src: placeholderImage, alt: "Blank photo placeholder for future bakery image" },
   { src: placeholderImage, alt: "Blank photo placeholder for future dairy image" },
