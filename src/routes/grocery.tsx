@@ -10,6 +10,7 @@ import groceryAisleImage from "@/assets/grocery-aisle-real.png";
 import produceDisplayImage from "@/assets/produce-display-1.png";
 import dairyDisplayImage from "@/assets/dairy-display.png";
 import householdAisleImage from "@/assets/household-aisle.png";
+import personalCareAisleImage from "@/assets/personal-care-aisle.png";
 
 export const Route = createFileRoute("/grocery")({
   head: () => ({
@@ -85,7 +86,7 @@ const categories: GroceryCategory[] = [
   {
     name: "Personal Necessities",
     description: "Health, hygiene, and personal care products for the whole family.",
-    image: householdAisleImage,
+    image: personalCareAisleImage,
     icon: "🧴",
     products: [
       "Shampoo", "Conditioner", "Body Wash", "Bar Soap", "Hand Soap",

@@ -31,6 +31,9 @@ import galleryHotFoodBar from "@/assets/gallery-hot-food-bar.png";
 import galleryHotFoodTrays from "@/assets/gallery-hot-food-trays.png";
 import galleryElotesStand from "@/assets/gallery-elotes-stand.png";
 import gallerySodaAisle from "@/assets/gallery-soda-aisle.png";
+import galleryBeverageWall from "@/assets/gallery-beverage-wall.png";
+import galleryMarinatedMeats from "@/assets/gallery-marinated-meats.png";
+import personalCareAisleImage from "@/assets/personal-care-aisle.png";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -152,6 +155,18 @@ const galleryImages = [
   {
     src: gallerySodaAisle,
     alt: "Soda aisle stocked with Coca-Cola, Sprite, Fanta, Dr Pepper, Jarritos, Sangria, and Mexican imported sodas",
+  },
+  {
+    src: galleryBeverageWall,
+    alt: "Beverage wall with Prime, Gatorade, Jarritos, Boing, Sangria, juices, aguas frescas, Jumex, energy drinks, and imported sodas",
+  },
+  {
+    src: galleryMarinatedMeats,
+    alt: "Butcher case with marinated pollo adobado, bistec adobado, costilla de res, al pastor, chorizo, and fresh ribeye and round steak",
+  },
+  {
+    src: personalCareAisleImage,
+    alt: "Personal care aisle with shampoo, conditioner, body wash, deodorant, soap, and hair care products",
   },
   {
     src: groceryAisleImage,
