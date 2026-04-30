@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { SectionHeading } from "@/components/SectionHeading";
 import { SnapEbtBanner } from "@/components/SnapEbtBanner";
 import placeholderImage from "@/assets/placeholder-blank.jpg";
-import orderOnlineImage from "@/assets/order-online-phone.jpg";
+import orderOnlineImage from "@/assets/order-online-real-v2.jpg";
 import deliCounterImage from "@/assets/deli-counter.jpg";
 import frontCoverImage from "@/assets/uptown-front-cover.png";
 import groceryAisleImage from "@/assets/grocery-aisle-real.png";
