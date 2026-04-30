@@ -28,6 +28,9 @@ import galleryCookingOilAisle from "@/assets/gallery-cooking-oil-aisle.png";
 import galleryProduceCoolerWide from "@/assets/gallery-produce-cooler-wide.png";
 import galleryPreparedFoodSpread from "@/assets/gallery-prepared-food-spread.png";
 import galleryHotFoodBar from "@/assets/gallery-hot-food-bar.png";
+import galleryHotFoodTrays from "@/assets/gallery-hot-food-trays.png";
+import galleryElotesStand from "@/assets/gallery-elotes-stand.png";
+import gallerySodaAisle from "@/assets/gallery-soda-aisle.png";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -137,6 +140,18 @@ const galleryImages = [
   {
     src: galleryHotFoodBar,
     alt: "Hot food bar with rice, beans, plantains, stews, roasted chicken, beef, potatoes, and pasta",
+  },
+  {
+    src: galleryHotFoodTrays,
+    alt: "Hot food trays with caldo de res, bistec a la mexicana, tamales, carne asada, plantains, taquitos, barbacoa, mole, and Mexican rice",
+  },
+  {
+    src: galleryElotesStand,
+    alt: "Elotes Preparados stand with Mexican street corn, esquites, hot Cheetos, Takis, fresh roses, sodas, and frozen chocolate bananas",
+  },
+  {
+    src: gallerySodaAisle,
+    alt: "Soda aisle stocked with Coca-Cola, Sprite, Fanta, Dr Pepper, Jarritos, Sangria, and Mexican imported sodas",
   },
   {
     src: groceryAisleImage,
