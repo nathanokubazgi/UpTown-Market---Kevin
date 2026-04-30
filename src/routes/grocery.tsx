@@ -72,7 +72,31 @@ const categories: GroceryCategory[] = [
     description: "Cleaning supplies, paper goods, laundry, and everyday household essentials.",
     image: householdAisleImage,
     icon: "🧻",
-    products: ["Paper Towels", "Bath Tissue", "Napkins", "Laundry Detergent", "Fabric Softener", "Dish Soap", "Hand Soap", "Bleach", "All-Purpose Cleaner", "Trash Bags", "Sponges", "Aluminum Foil", "Plastic Wrap", "Storage Bags"],
+    products: [
+      "Paper Towels", "Bath Tissue", "Facial Tissue", "Napkins", "Paper Plates", "Plastic Cups", "Plastic Utensils",
+      "Laundry Detergent", "Fabric Softener", "Dryer Sheets", "Bleach", "Stain Remover",
+      "Dish Soap", "Dishwasher Pods", "Sponges", "Scrub Brushes", "Rubber Gloves",
+      "All-Purpose Cleaner", "Glass Cleaner", "Bathroom Cleaner", "Toilet Bowl Cleaner", "Floor Cleaner", "Disinfecting Wipes",
+      "Trash Bags", "Storage Bags", "Aluminum Foil", "Plastic Wrap", "Parchment Paper",
+      "Air Fresheners", "Candles", "Matches", "Light Bulbs", "Batteries",
+      "Brooms", "Mops", "Buckets", "Dust Pans", "Pet Food", "Charcoal", "Lighter Fluid",
+    ],
+  },
+  {
+    name: "Personal Necessities",
+    description: "Health, hygiene, and personal care products for the whole family.",
+    image: householdAisleImage,
+    icon: "🧴",
+    products: [
+      "Shampoo", "Conditioner", "Body Wash", "Bar Soap", "Hand Soap",
+      "Toothpaste", "Toothbrushes", "Mouthwash", "Dental Floss",
+      "Deodorant", "Body Lotion", "Hand Sanitizer", "Razors", "Shaving Cream",
+      "Hair Gel", "Hair Spray", "Combs & Brushes", "Hair Ties",
+      "Feminine Hygiene", "Pads", "Tampons", "Diapers", "Baby Wipes", "Baby Powder", "Baby Lotion",
+      "Cotton Swabs", "Cotton Balls", "Band-Aids", "First Aid Supplies",
+      "Pain Relievers", "Cold & Flu Medicine", "Allergy Medicine", "Vitamins",
+      "Lip Balm", "Sunscreen", "Insect Repellent", "Nail Clippers", "Tweezers",
+    ],
   },
 ];
 
