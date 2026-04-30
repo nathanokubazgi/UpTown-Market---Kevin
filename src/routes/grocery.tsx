@@ -86,7 +86,7 @@ const categories: GroceryCategory[] = [
   {
     name: "Personal Necessities",
     description: "Health, hygiene, and personal care products for the whole family.",
-    image: householdAisleImage,
+    image: personalCareAisleImage,
     icon: "🧴",
     products: [
       "Shampoo", "Conditioner", "Body Wash", "Bar Soap", "Hand Soap",

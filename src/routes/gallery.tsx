@@ -31,6 +31,9 @@ import galleryHotFoodBar from "@/assets/gallery-hot-food-bar.png";
 import galleryHotFoodTrays from "@/assets/gallery-hot-food-trays.png";
 import galleryElotesStand from "@/assets/gallery-elotes-stand.png";
 import gallerySodaAisle from "@/assets/gallery-soda-aisle.png";
+import galleryBeverageWall from "@/assets/gallery-beverage-wall.png";
+import galleryMarinatedMeats from "@/assets/gallery-marinated-meats.png";
+import personalCareAisleImage from "@/assets/personal-care-aisle.png";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
