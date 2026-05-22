@@ -77,7 +77,7 @@ function HomePage() {
       </section>
 
       {/* SNAP Banner */}
-      <div className="mx-auto max-w-7xl px-4 -mt-6 relative z-10 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 mt-8 sm:px-6 lg:px-8">
         <SnapEbtBanner />
       </div>
 
