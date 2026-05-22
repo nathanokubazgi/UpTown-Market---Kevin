@@ -99,8 +99,10 @@ function ContactPage() {
                 <div>
                   <h3 className="font-semibold text-foreground">Hours</h3>
                   <div className="text-sm text-muted-foreground space-y-0.5">
-                    <p>Monday – Saturday: 7:00 AM – 9:00 PM</p>
-                    <p>Sunday: 8:00 AM – 8:00 PM</p>
+                    <p>Monday – Tuesday: 5:30 AM – 10:00 PM</p>
+                    <p>Wednesday – Thursday: 5:30 AM – 10:00 PM</p>
+                    <p>Friday – Saturday: 5:30 AM – 11:00 PM</p>
+                    <p>Sunday: 6:30 AM – 11:00 PM</p>
                   </div>
                 </div>
               </div>
