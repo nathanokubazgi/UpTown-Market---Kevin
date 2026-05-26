@@ -7,7 +7,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { SnapEbtBanner } from "@/components/SnapEbtBanner";
 import placeholderImage from "@/assets/placeholder-blank.jpg";
 import orderOnlineImage from "@/assets/order-online-real-v2.jpg";
-import deliCounterImage from "@/assets/deli-counter.jpg";
+import deliCounterImage from "@/assets/food-menu-home.png";
 import frontCoverImage from "@/assets/uptown-front-cover.png";
 import groceryAisleImage from "@/assets/grocery-aisle-real.png";
 
@@ -119,7 +119,7 @@ function HomePage() {
           <div className="aspect-[4/3] lg:aspect-auto">
             <img
               src={deliCounterImage}
-              alt="Uptown Fresh Market deli counter with hot prepared foods, fresh juices, drinks, and Tacos & Mas menu"
+              alt="Uptown Fresh Market food menu board with burgers, platillos, tacos, burritos, tortas, and quesadillas"
               className="h-full w-full object-cover"
               loading="lazy"
               width={1200}
