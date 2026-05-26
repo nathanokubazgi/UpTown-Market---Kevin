@@ -40,6 +40,9 @@ import galleryButcherCase from "@/assets/gallery-butcher-case.png";
 import gallerySaucesAisle from "@/assets/gallery-sauces-aisle.png";
 import galleryJuicesMilk from "@/assets/gallery-juices-milk.png";
 import galleryMeatSeafoodCase from "@/assets/gallery-meat-seafood-case.png";
+import galleryProduceCollage from "@/assets/gallery-produce-collage.png";
+import galleryFlowersPastries from "@/assets/gallery-flowers-pastries.png";
+import galleryMarinatedMeatCase from "@/assets/gallery-marinated-meat-case.png";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -201,6 +204,18 @@ const galleryImages = [
   {
     src: galleryMeatSeafoodCase,
     alt: "Meat and seafood case with whole tilapia, catfish fillets, shrimp, pork belly, pork chops, chicken, and queso fresco",
+  },
+  {
+    src: galleryProduceCollage,
+    alt: "Produce section collage with tomatoes, melons, grapes, bananas, plantains, pumpkins, onions, potatoes, fresh greens, cabbage, peppers, and packaged vegetables",
+  },
+  {
+    src: galleryFlowersPastries,
+    alt: "Fresh flower bouquets with roses and baby's breath next to packaged Mexican pastries and cookies",
+  },
+  {
+    src: galleryMarinatedMeatCase,
+    alt: "Butcher case with pollo adobado, bistec adobado, costilla de res marinada, al pastor de puerco, chorizo, and fresh beef cuts",
   },
   { src: placeholderImage, alt: "Blank photo placeholder for future bakery image" },
   { src: placeholderImage, alt: "Blank photo placeholder for future dairy image" },
