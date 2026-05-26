@@ -5,9 +5,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { SectionHeading } from "@/components/SectionHeading";
 import { SnapEbtBanner } from "@/components/SnapEbtBanner";
-import placeholderImage from "@/assets/placeholder-blank.jpg";
 import orderOnlineImage from "@/assets/order-online-real-v2.jpg";
-import deliCounterImage from "@/assets/food-menu-home.png";
+import deliCounterImage from "@/assets/deli-counter-hot-food.png";
+import foodMenuImage from "@/assets/food-menu-home.png";
 import frontCoverImage from "@/assets/uptown-front-cover.png";
 import groceryAisleImage from "@/assets/grocery-aisle-real.png";
 
@@ -31,7 +31,7 @@ const weeklySpecials = [
 ];
 
 const quickLinks = [
-  { to: "/menu", label: "Food Menu", description: "Tacos, burritos, breakfast & more", icon: "🌮", image: placeholderImage },
+  { to: "/menu", label: "Food Menu", description: "Tacos, burritos, breakfast & more", icon: "🌮", image: foodMenuImage },
   { to: "/grocery", label: "Grocery", description: "Fresh produce, meats & specialty items", icon: "🥑", image: groceryAisleImage },
   { to: "/order", label: "Order Online", description: "UberEats, DoorDash & more", icon: "📱", image: orderOnlineImage },
 ] as const;
@@ -119,7 +119,7 @@ function HomePage() {
           <div className="aspect-[4/3] lg:aspect-auto">
             <img
               src={deliCounterImage}
-              alt="Uptown Fresh Market food menu board with burgers, platillos, tacos, burritos, tortas, and quesadillas"
+              alt="Uptown Fresh Market deli counter with hot food, fresh juices, imported sodas, and the Tacos & Mas menu board"
               className="h-full w-full object-cover"
               loading="lazy"
               width={1200}
