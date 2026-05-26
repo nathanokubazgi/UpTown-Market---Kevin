@@ -24,10 +24,10 @@ export const Route = createFileRoute("/")({
 });
 
 const weeklySpecials = [
-  { name: "Fresh Avocados", description: "Premium Hass avocados, perfect for guacamole", price: "$0.79 each", badge: "Hot Deal" },
-  { name: "Chicken Taco Plate", description: "3 tacos with rice, beans, and fresh salsa", price: "$8.99", badge: "Fan Favorite" },
-  { name: "Family Meat Bundle", description: "5 lbs mixed cuts — chicken, beef, and pork", price: "$24.99", badge: "Best Value" },
-  { name: "Fresh Baked Conchas", description: "Pack of 6 assorted sweet bread conchas", price: "$3.49", badge: "New" },
+  { name: "Taco Birria", description: "Corn tortilla with birria, cilantro, onions, and consomé", price: "$3.99", badge: "Fan Favorite" },
+  { name: "Burrito (Build Your Own)", description: "Choice of meat, rice & beans, and mozzarella cheese", price: "$11.99", badge: "Popular" },
+  { name: "Smash Burger", description: "Smashed beef patties, American cheese, pickles & house sauce", price: "$10.99", badge: "Hot Deal" },
+  { name: "Strawberry Banana Smoothie", description: "Strawberries & bananas blended with yogurt and orange juice", price: "$9.99", badge: "Fresh" },
 ];
 
 const quickLinks = [
