@@ -216,11 +216,6 @@ const galleryImages = [
     src: galleryMarinatedMeatCase,
     alt: "Butcher case with pollo adobado, bistec adobado, costilla de res marinada, al pastor de puerco, chorizo, and fresh beef cuts",
   },
-  { src: placeholderImage, alt: "Blank photo placeholder for future bakery image" },
-  { src: placeholderImage, alt: "Blank photo placeholder for future dairy image" },
-  { src: placeholderImage, alt: "Blank photo placeholder for future specialty grocery image" },
-  { src: placeholderImage, alt: "Blank photo placeholder for future prepared food image" },
-  { src: placeholderImage, alt: "Blank photo placeholder for future market interior image" },
 ];
 
 function GalleryPage() {
