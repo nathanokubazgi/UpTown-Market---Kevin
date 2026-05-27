@@ -90,7 +90,7 @@ function ContactPage() {
                 <Mail className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
                 <div>
                   <h3 className="font-semibold text-foreground">Email</h3>
-                  <a href="mailto:hello@uptownfreshmarket.com" className="text-sm text-muted-foreground hover:text-primary">hello@uptownfreshmarket.com</a>
+                  <a href="mailto:uptownfreshmarket@gmail.com" className="text-sm text-muted-foreground hover:text-primary">uptownfreshmarket@gmail.com</a>
                 </div>
               </div>
 
