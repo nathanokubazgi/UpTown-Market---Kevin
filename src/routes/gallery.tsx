@@ -3,7 +3,6 @@ import { useState } from "react";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Button } from "@/components/ui/button";
-import placeholderImage from "@/assets/placeholder-blank.jpg";
 import deliCounterImage from "@/assets/deli-counter.jpg";
 import meatCounter1 from "@/assets/meat-counter-1.jpg";
 import meatCounter2 from "@/assets/meat-counter-2.jpg";
