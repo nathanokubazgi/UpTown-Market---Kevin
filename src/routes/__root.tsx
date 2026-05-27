@@ -36,6 +36,12 @@ export const Route = createRootRoute({
       { name: "author", content: "Uptown Fresh Market" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Uptown Fresh Market — Nashville's Neighborhood Grocery" },
+      { name: "twitter:title", content: "Uptown Fresh Market — Nashville's Neighborhood Grocery" },
+      { property: "og:description", content: "Fresh groceries, prepared foods, and weekly specials at Uptown Fresh Market in Nashville, TN. SNAP/EBT accepted." },
+      { name: "twitter:description", content: "Fresh groceries, prepared foods, and weekly specials at Uptown Fresh Market in Nashville, TN. SNAP/EBT accepted." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/784e3f4a-aa01-4ee0-a0d3-8e93eae513f4" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/784e3f4a-aa01-4ee0-a0d3-8e93eae513f4" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
