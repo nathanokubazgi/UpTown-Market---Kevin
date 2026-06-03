@@ -3,6 +3,9 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 import appCss from "../styles.css?url";
+import ogImage from "../assets/store-sign-reference.png";
+
+const SITE_URL = "https://uptownfreshmarket.netlify.app";
 
 function NotFoundComponent() {
   return (
@@ -40,8 +43,8 @@ export const Route = createRootRoute({
       { name: "twitter:title", content: "Uptown Fresh Market — Nashville's Neighborhood Grocery" },
       { property: "og:description", content: "Fresh groceries, prepared foods, and weekly specials at Uptown Fresh Market in Nashville, TN. SNAP/EBT accepted." },
       { name: "twitter:description", content: "Fresh groceries, prepared foods, and weekly specials at Uptown Fresh Market in Nashville, TN. SNAP/EBT accepted." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/784e3f4a-aa01-4ee0-a0d3-8e93eae513f4" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/784e3f4a-aa01-4ee0-a0d3-8e93eae513f4" },
+      { property: "og:image", content: `${SITE_URL}${ogImage}` },
+      { name: "twitter:image", content: `${SITE_URL}${ogImage}` },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
