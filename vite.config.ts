@@ -6,4 +6,8 @@
 // You can pass additional config via defineConfig({ vite: { ... } }) if needed.
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
-export default defineConfig();
+// Build as a static SPA so the site can be hosted on any static host (e.g. Netlify).
+// This makes the build emit a prerendered shell that netlify.toml exposes as index.html.
+export default defineConfig({
+  tanstackStart: { spa: { enabled: true } },
+});
